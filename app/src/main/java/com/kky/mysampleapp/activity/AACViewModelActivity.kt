@@ -10,8 +10,6 @@ class AACViewModelActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityAacviewModelBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
-
+        setContentView(binding.root);
     }
 }
