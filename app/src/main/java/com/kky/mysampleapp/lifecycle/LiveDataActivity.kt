@@ -21,7 +21,7 @@ class LiveDataActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        viewModel.name().observe(this) { name -> //TestViewModel에 있는 LiveData를 가져와 관찰한다.
+        viewModel.getNameLiveData().observe(this) { name -> //TestViewModel에 있는 LiveData를 가져와 관찰한다.
             binding.tvName.text = name
         }
 

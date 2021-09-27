@@ -12,5 +12,5 @@ class TestViewModel: ViewModel() {
         MutableLiveData()
     }
 
-    fun name(): LiveData<String> = _nameLiveData
+    fun getNameLiveData(): LiveData<String> = _nameLiveData
 }
