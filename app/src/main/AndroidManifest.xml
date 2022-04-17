@@ -10,17 +10,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MySampleApp">
-        <activity android:name=".activity.CoordinatorLayoutActivity"></activity>
+        <activity
+            android:name=".activity.DetailActivity"
+            android:exported="false" />
+        <activity android:name=".activity.CoordinatorLayoutActivity" />
         <activity android:name=".lifecycle.LiveDataActivity" />
         <activity android:name=".lifecycle.LifecycleSampleActivity" />
-        <activity android:name=".viewmodel.AACViewModelActivity">
+        <activity android:name=".viewmodel.AACViewModelActivity"></activity>
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity"></activity>
     </application>
 
 </manifest>
