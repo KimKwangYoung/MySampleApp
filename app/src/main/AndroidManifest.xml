@@ -11,13 +11,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MySampleApp">
         <activity
+            android:name=".activity.FlowActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.DetailActivity"
             android:exported="false" />
-        <activity android:name=".activity.CoordinatorLayoutActivity" />
-        <activity android:name=".lifecycle.LiveDataActivity" />
-        <activity android:name=".lifecycle.LifecycleSampleActivity" />
-        <activity android:name=".viewmodel.AACViewModelActivity"></activity>
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".activity.CoordinatorLayoutActivity"
+            android:exported="false"  />
+        <activity android:name=".lifecycle.LiveDataActivity"
+            android:exported="false"  />
+        <activity android:name=".lifecycle.LifecycleSampleActivity"
+            android:exported="false" />
+        <activity android:name=".viewmodel.AACViewModelActivity"
+            android:exported="false"  />
+        <activity android:name=".activity.MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

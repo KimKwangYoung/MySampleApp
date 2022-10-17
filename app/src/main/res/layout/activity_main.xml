@@ -27,6 +27,12 @@
         android:text="Detail"
         android:textColor="@color/black"
         android:id="@+id/detail"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flow"
+        android:textColor="@color/black"
+        android:id="@+id/flow"/>
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>

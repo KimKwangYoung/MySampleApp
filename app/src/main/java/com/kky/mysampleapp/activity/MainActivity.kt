@@ -32,6 +32,10 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.detail).setOnClickListener {
             startActivity(Intent(this, DetailActivity::class.java))
         }
+
+        findViewById<Button>(R.id.flow).setOnClickListener {
+            startActivity(Intent(this, FlowActivity::class.java))
+        }
     }
 
 //    override fun onStart() {
